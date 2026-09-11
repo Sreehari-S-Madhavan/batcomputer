@@ -1,0 +1,60 @@
+{
+  "responses": [
+    {
+      "status": "ACTIVATED",
+      "protocol": "EMERGENCY_DEFCON_1",
+      "result": "NOTHING HAPPENED",
+      "message": "Alfred is currently on tea break. Batmobile ignition key is under the manor doormat.",
+      "batmobile": "Still parked in Batcave bay 1.",
+      "gotham": "Completely fine. A stray cat yawned."
+    },
+    {
+      "status": "ACTIVATED",
+      "protocol": "EMERGENCY_DEFCON_1",
+      "result": "NOTHING HAPPENED",
+      "message": "Please try turning the Dark Knight off and on again.",
+      "batmobile": "Engine idling with unnecessary aggression.",
+      "gotham": "Zero villains spotted. Zero crimes occurring."
+    },
+    {
+      "status": "ACTIVATED",
+      "protocol": "EMERGENCY_DEFCON_1",
+      "result": "NOTHING HAPPENED",
+      "message": "Alfred has been notified via emergency buzzer. He politely declined to panic.",
+      "batmobile": "Parked. Dusting completed.",
+      "gotham": "Alarmingly peaceful. Batman is stressed by the calm."
+    },
+    {
+      "status": "ACTIVATED",
+      "protocol": "EMERGENCY_DEFCON_1",
+      "result": "NOTHING HAPPENED",
+      "message": "Batmobile computer reported 'Check Engine' light. It was just a spider.",
+      "batmobile": "Spider safely relocated to outside cave.",
+      "gotham": "Still boringly safe."
+    },
+    {
+      "status": "ACTIVATED",
+      "protocol": "EMERGENCY_DEFCON_1",
+      "result": "NOTHING HAPPENED",
+      "message": "Emergency successfully routed to Commissioner Gordon. He thought it was a fax.",
+      "batmobile": "Standing by on Bat-turntable.",
+      "gotham": "Quiet. Only faint saxophone music heard."
+    },
+    {
+      "status": "ACTIVATED",
+      "protocol": "EMERGENCY_DEFCON_1",
+      "result": "NOTHING HAPPENED",
+      "message": "Tactical countermeasures deployed: All exterior Manor floodlights turned to 80% brooding mood.",
+      "batmobile": "Armed with non-lethal boredom.",
+      "gotham": "All 12 bridges open. No traffic."
+    },
+    {
+      "status": "ACTIVATED",
+      "protocol": "EMERGENCY_DEFCON_1",
+      "result": "NOTHING HAPPENED",
+      "message": "Protocol completed with 100% theatrical flair and 0% practical utility.",
+      "batmobile": "Buffed with matte carbon wax.",
+      "gotham": "The city sleeps peacefully while Batman sulks."
+    }
+  ]
+}

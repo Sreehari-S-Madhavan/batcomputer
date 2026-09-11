@@ -1,0 +1,117 @@
+{
+  "crimes": [
+    {
+      "type": "robberies",
+      "count": 0,
+      "description": "Zero armed bank robberies detected in Gotham"
+    },
+    {
+      "type": "villains",
+      "count": 0,
+      "description": "Zero supervillain schemes currently in progress"
+    },
+    {
+      "type": "suspicious_clowns",
+      "count": 0,
+      "description": "Zero unauthorized clown sightings reported"
+    },
+    {
+      "type": "suspicious_pigeons",
+      "count": 4,
+      "description": "4 pigeons perched unusually close to Wayne Tower"
+    },
+    {
+      "type": "stolen_pizzas",
+      "count": 0,
+      "description": "Zero pizza deliveries intercepted in Crime Alley"
+    },
+    {
+      "type": "dramatic_rooftop_incidents",
+      "count": 0,
+      "description": "Zero non-Batman dramatic rooftop stances reported"
+    },
+    {
+      "type": "missing_socks",
+      "count": 58,
+      "description": "58 single socks vanished from East Gotham laundromats"
+    },
+    {
+      "type": "illegal_bat_signals",
+      "count": 0,
+      "description": "Zero rogue flashlights aimed at Gotham cloud base"
+    },
+    {
+      "type": "unexplained_screaming",
+      "count": 0,
+      "description": "Zero gothic monologues overheard by civilians"
+    },
+    {
+      "type": "bad_parking",
+      "count": 31,
+      "description": "31 Gothamites parked over the line at the pharmacy"
+    },
+    {
+      "type": "late_night_snacking",
+      "count": 214,
+      "description": "214 residents eating shredded cheese straight from the fridge at 3 AM"
+    },
+    {
+      "type": "suspicious_umbrella_usage",
+      "count": 19,
+      "description": "19 umbrellas deployed on a completely clear, moonlit night"
+    },
+    {
+      "type": "overly_dramatic_posing",
+      "count": 6,
+      "description": "6 pedestrians caught pausing cinematically under streetlights"
+    },
+    {
+      "type": "slow_walking",
+      "count": 112,
+      "description": "112 slow walkers creating sidewalk gridlock on Robinson Ave"
+    },
+    {
+      "type": "public_humming",
+      "count": 43,
+      "description": "43 citizens humming vaguely dramatic orchestral themes"
+    },
+    {
+      "type": "unlicensed_gargoyle_sitting",
+      "count": 1,
+      "description": "1 Batman occupying gargoyle without City Permit 402-B"
+    },
+    {
+      "type": "mismatched_shoelaces",
+      "count": 27,
+      "description": "27 instances of unevenly tied athletic footwear"
+    },
+    {
+      "type": "microwave_fish_incidents",
+      "count": 5,
+      "description": "5 corporate kitchen infractions at Wayne Enterprises floor 14"
+    },
+    {
+      "type": "aggressive_jaywalking",
+      "count": 8,
+      "description": "8 reckless crossings against the red bat pedestrian sign"
+    },
+    {
+      "type": "unnecessary_trenchcoat_swishing",
+      "count": 14,
+      "description": "14 dramatic coat swooshes executed without wind assistance"
+    }
+  ],
+  "status_messages": [
+    "Nothing to report. Gotham is overwhelmingly tranquil.",
+    "Crime telemetry indicates extreme peace. Batman is actively alarmed.",
+    "Crime rate: statistically improbable. Paranoia factor: optimal.",
+    "Gotham is too peaceful. A flock of pigeons is under surveillance.",
+    "Zero felonies detected. Batman has begun auditing traffic meters.",
+    "City is utterly quiet. Alfred has recommended listening to classical radio.",
+    "Crime stats remain at zero. Mainframe suspects criminal hibernation.",
+    "Total tranquility in Gotham. Batman considers this a personal slight.",
+    "Arkham Asylum perimeter: Completely quiet. Joker appears to be napping.",
+    "No villains detected. Batman continues to glare suspiciously into the mist.",
+    "Zero bank alarms triggered. Tell Gordon he may finish his doughnut."
+  ]
+}

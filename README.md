@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BATMAN'S BATCOMPUTER � BUT USELESS
 
-## Getting Started
+> "Extremely serious Batman-style tactical computer interface + completely useless information and actions."
 
-First, run the development server:
+An ultra-detailed, cinematic Batcave tactical mainframe built with React, Vite, Node.js, Express, and pure Web Audio SFX synthesis.
 
+---
+
+## Quick Start
+
+### 1. Start the Backend API (Port 3000)
 ```bash
+cd server
+npm install
+npm start
+```
+*API runs on http://localhost:3000*
+
+### 2. Start the Frontend HUD (Port 5173)
+In another terminal:
+```bash
+cd client
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+*HUD runs on http://localhost:5173*
+
+## Deploy to Vercel
+
+Import the repository into Vercel with the project root set to the repository root. The included `vercel.json` builds the Vite client from `client/`, serves it from `client/dist`, and routes `/api/*` to the Express serverless function in `api/index.js`.
+
+No environment variables are required.
+
+---
+
+## Automated Verification & Testing
+To run the automated end-to-end integration test suite:
+```bash
+node test_e2e.js
+```
+To run the frontend production build and linter:
+```bash
+cd client
+npm run build
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Tactical Features
+- **Biometric Retinal Scan Access**: Secure Wayne Enterprises Alpha Clearance terminal with thermal retinal sensor and Alfred emergency bypass.
+- **Biometric & Psychological Vitals**: Suit diagnostics (Mark 9000), Energy reserve, Mood ("Contemplative", "Emotionally unavailable"), Pointless activities ("Staring dramatically into the distance").
+- **Gotham Threat vs. Crime Matrix**: Threat Level: EXTREME (97%) vs. Crime Detected: 0. Telemetry classification for missing socks, suspicious pigeons, bad parking, and late-night snacking.
+- **Wayne Enterprises Financial Ticker**: Real-time ticker with billions in liquid capital ("Bruce made money while brooding") and tactical expense simulations.
+- **Gotham Noir Weather & Doppler Radar**: Live weather conditions with animated radar sweep, fog/rain advisories, and dramatic cape flutter coefficients.
+- **Citizen & Villain Surveillance Scanner**: Interactive city sweep across 8,400+ CCTV feeds with 2-second tactical sweep animation and suspect profiling ("Man with Umbrella - having an umbrella when it's not raining").
+- **Rooftop Bat-Signal Beacon**: Sky projection beam with bat-symbol illumination and response outcome ("Nobody came. Batman was already here.").
+- **DEFCON 1 Red Alert**: Emergency klaxon alarm, screen shake, and automated useless response ("NOTHING HAPPENED - Alfred is on vacation.").
+- **Encrypted Manor Butler Feed**: Pennyworth direct intercom, tea requests, and butler guidance.
+- **Batcave Command Prompt (CLI)**: Interactive tactical terminal supporting directives (`help`, `brood`, `coffee`, `scan`, `signal`, `emergency`, `alfred`, `justice`, `clear`).
+- **Vital Brooding & Caffeine Gauges**: Coffee level critical monitor and brooding intensity tuner.
+- **Tactical Audio Synthesizer**: Pure Web Audio API sound effects (chirps, sonar pings, alarms, typing clicks) with mute toggle.
+- **Dramatic Brooding Atmosphere**: High-contrast noir brooding mode toggle.

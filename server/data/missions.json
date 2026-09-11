@@ -1,0 +1,88 @@
+{
+  "missions": [
+    {
+      "id": "MISSION-001",
+      "name": "Operation Dramatic Entrance",
+      "status": "PENDING",
+      "description": "Practice swooping from Ace Chemicals tower through skylight for no tactical reason",
+      "priority": "HIGH"
+    },
+    {
+      "id": "MISSION-002",
+      "name": "Project Perennial Brooding",
+      "status": "IN PROGRESS",
+      "description": "Maintain uninterrupted silence in Batcave while staring intently at multiple blank monitors",
+      "priority": "CRITICAL"
+    },
+    {
+      "id": "MISSION-003",
+      "name": "Bat-Signal Investigation",
+      "status": "COMPLETE",
+      "description": "Investigate why Commissioner Gordon turned on the Bat-Signal during broad daylight",
+      "priority": "LOW"
+    },
+    {
+      "id": "MISSION-004",
+      "name": "Alfred Protocol Alpha",
+      "status": "PENDING",
+      "description": "Respond to Alfred's 47 polite voicemails regarding cold dinner and laundry",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "MISSION-005",
+      "name": "Gotham Smog Sweep",
+      "status": "IN PROGRESS",
+      "description": "Scan Gotham sky for suspicious low-hanging clouds suitable for theatrical entrances",
+      "priority": "HIGH"
+    },
+    {
+      "id": "MISSION-006",
+      "name": "Batmobile Waxing Protocol",
+      "status": "COMPLETE",
+      "description": "Apply eighth layer of stealth ceramic coat to Batmobile bumper. Still 100% matte black.",
+      "priority": "LOW"
+    },
+    {
+      "id": "MISSION-007",
+      "name": "Wayne Enterprises Board Camouflage",
+      "status": "PENDING",
+      "description": "Attend quarterly board meeting, pretend to listen while calculating Batarang flight paths",
+      "priority": "MEDIUM"
+    },
+    {
+      "id": "MISSION-008",
+      "name": "Crime Deterrence via Glaring",
+      "status": "COMPLETE",
+      "description": "Deter petty crime in Bowery by glaring intensely at streetlamps for 3 hours",
+      "priority": "CRITICAL"
+    },
+    {
+      "id": "MISSION-009",
+      "name": "Riddler Trophy Avoidance",
+      "status": "IN PROGRESS",
+      "description": "Actively ignore 243 green question mark trophies scattered across Bleake Island",
+      "priority": "HIGH"
+    },
+    {
+      "id": "MISSION-010",
+      "name": "Gargoyle Ergonomics Assessment",
+      "status": "PENDING",
+      "description": "Test structural comfort of 18th-century stone gargoyle on Gotham Municipal Courthouse",
+      "priority": "LOW"
+    },
+    {
+      "id": "MISSION-011",
+      "name": "Cape Physics Aerodynamic Calibration",
+      "status": "IN PROGRESS",
+      "description": "Ensure cape swooshes with maximum gothic drama during 5-foot descents",
+      "priority": "HIGH"
+    },
+    {
+      "id": "MISSION-012",
+      "name": "Arkham Island Medical Check",
+      "status": "PENDING",
+      "description": "Check if Scarecrow left any hallucinogenic fear gas in the cafeteria coffee machine",
+      "priority": "MEDIUM"
+    }
+  ]
+}

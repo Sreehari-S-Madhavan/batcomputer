@@ -1,0 +1,154 @@
+{
+  "villains": [
+    {
+      "name": "Suspicious Man in Shades",
+      "threat": "3%",
+      "crime": "Wearing sunglasses at 2:45 AM during heavy fog"
+    },
+    {
+      "name": "Extremely Suspicious Pigeon",
+      "threat": "1%",
+      "crime": "Maintaining unbroken eye contact with Batman for 12 minutes"
+    },
+    {
+      "name": "Man With Inopportune Umbrella",
+      "threat": "2%",
+      "crime": "Brandishing an open golf umbrella inside an elevator"
+    },
+    {
+      "name": "Guy Walking Suspiciously Fast",
+      "threat": "4%",
+      "crime": "Power-walking down Crime Alley with a bag of gluten-free bagels"
+    },
+    {
+      "name": "The Phantom Sock Thief",
+      "threat": "15%",
+      "crime": "Stealing single left argyle socks from East Gotham laundromats"
+    },
+    {
+      "name": "Mysterious Uncle",
+      "threat": "5%",
+      "crime": "Showing up uninvited to Wayne Enterprises shareholder meetings"
+    },
+    {
+      "name": "Discount Joker",
+      "threat": "8%",
+      "crime": "Leaving lukewarm dad jokes on windshield wipers in parking garages"
+    },
+    {
+      "name": "Local Parking Menace",
+      "threat": "7%",
+      "crime": "Diagonal parking across two handicap spots with an expired meter"
+    },
+    {
+      "name": "The Serial Sneezer",
+      "threat": "3%",
+      "crime": "Sneezing five times in rapid succession without covering mouth"
+    },
+    {
+      "name": "Overenthusiastic Cat Aficionado",
+      "threat": "2%",
+      "crime": "Showing photos of 14 rescue cats to bored subway commuters"
+    },
+    {
+      "name": "Suspicious Dog Walker",
+      "threat": "3%",
+      "crime": "Walking a teacup poodle wearing matching leather combat boots at 3 AM"
+    },
+    {
+      "name": "The 3 AM Chip Cruncher",
+      "threat": "1%",
+      "crime": "Loudly devouring barbecue potato chips during a silent stakeout"
+    },
+    {
+      "name": "Midnight Dairy Consumer",
+      "threat": "2%",
+      "crime": "Purchasing a gallon of 2% milk while wearing a velvet smoking jacket"
+    },
+    {
+      "name": "Aggressive Mechanical Keyboardist",
+      "threat": "12%",
+      "crime": "Typing at 140 WPM with blue clicky switches in the quiet library"
+    },
+    {
+      "name": "The Sidewalk Blockade",
+      "threat": "4%",
+      "crime": "Walking at 0.4 mph in the exact dead center of the pedestrian bridge"
+    },
+    {
+      "name": "Suspicious Decaf Enthusiast",
+      "threat": "2%",
+      "crime": "Ordering a triple-shot decaf iced oat milk latte with extra foam"
+    },
+    {
+      "name": "The Bluetooth Monologuer",
+      "threat": "5%",
+      "crime": "Conducting heated corporate merger negotiations on speakerphone in public"
+    },
+    {
+      "name": "Culinary Anarchist",
+      "threat": "3%",
+      "crime": "Eating New York style thin-crust pizza with a gold-plated fork and knife"
+    },
+    {
+      "name": "Off-Key Whistling Rogue",
+      "threat": "6%",
+      "crime": "Whistling the theme to 'Batman: The Animated Series' half a step flat"
+    },
+    {
+      "name": "The Subway Novelist",
+      "threat": "1%",
+      "crime": "Reading Tolstoy's 'War and Peace' upside down on the Gotham Express"
+    },
+    {
+      "name": "The Coupon Expire-er",
+      "threat": "9%",
+      "crime": "Attempting to redeem an expired Bed Bath & Beyond coupon at a Gotham hardware store"
+    },
+    {
+      "name": "Riddler's Underpaid Intern",
+      "threat": "6%",
+      "crime": "Hiding neon green question mark post-its on public payphones"
+    },
+    {
+      "name": "Office Breakroom Menace",
+      "threat": "14%",
+      "crime": "Microwaving leftover salmon in Wayne Enterprises tower floor 9 breakroom"
+    },
+    {
+      "name": "Unsolicited Gym Instructor",
+      "threat": "4%",
+      "crime": "Giving unsolicited deadlift form advice to strangers in dark alleys"
+    },
+    {
+      "name": "Cart Abandoner",
+      "threat": "8%",
+      "crime": "Leaving supermarket shopping cart directly between two parking stalls"
+    },
+    {
+      "name": "Dramatic Trenchcoat Flapper",
+      "threat": "5%",
+      "crime": "Vigorously flapping coat in the breeze without any discernible purpose"
+    },
+    {
+      "name": "Elevator Door Closer Rogue",
+      "threat": "11%",
+      "crime": "Repeatedly hammering the 'Door Close' button while maintaining eye contact"
+    },
+    {
+      "name": "The Spoiled Cinema-goer",
+      "threat": "13%",
+      "crime": "Whispering movie plot twists at the Monarch Theater ticket queue"
+    },
+    {
+      "name": "The Penniless Gargoyle Squatter",
+      "threat": "2%",
+      "crime": "Sitting on a second-story gargoyle pretending to be Batman"
+    },
+    {
+      "name": "The Unmuted Zoom Commuter",
+      "threat": "10%",
+      "crime": "Chewing celery loudly on an all-hands call with microphone unmuted"
+    }
+  ]
+}

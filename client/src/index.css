@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;600;700&display=swap");
+
+:root {
+  --bat-bg: #05070a;
+  --bat-panel: rgba(9, 14, 23, 0.85);
+  --bat-panel-border: #1a2a3a;
+  --bat-cyan: #00f0ff;
+  --bat-cyan-glow: rgba(0, 240, 255, 0.35);
+  --bat-amber: #ffb700;
+  --bat-amber-glow: rgba(255, 183, 0, 0.35);
+  --bat-crimson: #ff1e44;
+  --bat-crimson-glow: rgba(255, 30, 68, 0.45);
+  --bat-green: #00ff88;
+  --bat-text-main: #d0e4f7;
+  --bat-text-muted: #5e7994;
+  --bat-accent: #0e1e2d;
+  --font-display: "Orbitron", sans-serif;
+  --font-mono: "Share Tech Mono", monospace;
+  --font-tactical: "Rajdhani", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bat-bg);
+  color: var(--bat-text-main);
+  font-family: var(--font-tactical);
+  font-size: 15px;
+  line-height: 1.4;
+  overflow-x: hidden;
+  user-select: none;
+  background-image: 
+    radial-gradient(circle at 50% 30%, rgba(0, 50, 80, 0.15), transparent 70%),
+    linear-gradient(rgba(5, 7, 10, 0.95), rgba(5, 7, 10, 0.95)),
+    url("/images/image2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+}
+
+/* CRT Scanline & Vignette Effect */
+.crt-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+  background: 
+    linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+    radial-gradient(circle at center, transparent 60%, rgba(0, 0, 0, 0.7) 100%);
+  background-size: 100% 4px, 100% 100%;
+  opacity: 0.65;
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(4, 8, 14, 0.8);
+}
+::-webkit-scrollbar-thumb {
+  background: #1e354a;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bat-cyan);
+  box-shadow: 0 0 6px var(--bat-cyan);
+}
+
+/* Tactical glowing card frame */
+.tactical-panel {
+  background: var(--bat-panel);
+  border: 1px solid var(--bat-panel-border);
+  position: relative;
+  backdrop-filter: blur(10px);
+  padding: 16px;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+
+.tactical-panel:hover {
+  border-color: rgba(0, 240, 255, 0.4);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.08);
+}
+
+/* Corner bracket accents */
+.tactical-panel::before,
+.tactical-panel::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-color: var(--bat-cyan);
+  pointer-events: none;
+}
+
+.tactical-panel::before {
+  top: -1px;
+  left: -1px;
+  border-top: 2px solid var(--bat-cyan);
+  border-left: 2px solid var(--bat-cyan);
+}
+
+.tactical-panel::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 2px solid var(--bat-cyan);
+  border-right: 2px solid var(--bat-cyan);
+}
+
+/* Panel Header */
+.panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 240, 255, 0.15);
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+
+.panel-title {
+  font-family: var(--font-display);
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--bat-cyan);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.panel-tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  padding: 2px 6px;
+  background: rgba(0, 240, 255, 0.1);
+  border: 1px solid rgba(0, 240, 255, 0.3);
+  color: var(--bat-cyan);
+  letter-spacing: 1px;
+}
+
+/* Tactical buttons */
+.tactical-btn {
+  background: rgba(9, 23, 38, 0.8);
+  color: var(--bat-cyan);
+  border: 1px solid rgba(0, 240, 255, 0.4);
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 8px 14px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.tactical-btn:hover {
+  background: rgba(0, 240, 255, 0.18);
+  border-color: var(--bat-cyan);
+  box-shadow: 0 0 12px var(--bat-cyan-glow);
+  color: #fff;
+}
+
+.tactical-btn:active {
+  transform: scale(0.98);
+}
+
+.tactical-btn.danger {
+  border-color: var(--bat-crimson);
+  color: var(--bat-crimson);
+  background: rgba(45, 9, 18, 0.8);
+}
+
+.tactical-btn.danger:hover {
+  background: rgba(255, 30, 68, 0.25);
+  box-shadow: 0 0 18px var(--bat-crimson-glow);
+  color: #fff;
+}
+
+.tactical-btn.amber {
+  border-color: var(--bat-amber);
+  color: var(--bat-amber);
+  background: rgba(38, 28, 9, 0.8);
+}
+
+.tactical-btn.amber:hover {
+  background: rgba(255, 183, 0, 0.25);
+  box-shadow: 0 0 14px var(--bat-amber-glow);
+  color: #fff;
+}
+
+/* Monospace Values */
+.mono-val {
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
+
+/* Pulse animation */
+@keyframes tactical-pulse {
+  0% { opacity: 0.4; }
+  50% { opacity: 1; }
+  100% { opacity: 0.4; }
+}
+
+.pulse-crimson {
+  animation: tactical-pulse 1.2s infinite ease-in-out;
+  color: var(--bat-crimson);
+}
+
+.pulse-cyan {
+  animation: tactical-pulse 2s infinite ease-in-out;
+  color: var(--bat-cyan);
+}
+
+/* Screen Shake for Emergency */
+@keyframes bat-shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-0.5deg); }
+  20% { transform: translate(-3px, 0px) rotate(0.5deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(0.5deg); }
+  50% { transform: translate(-1px, 2px) rotate(-0.5deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-0.5deg); }
+  80% { transform: translate(-1px, -1px) rotate(0.5deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-0.5deg); }
+}
+
+.screen-shake {
+  animation: bat-shake 0.5s ease-in-out;
+}
